@@ -1,0 +1,17 @@
+{
+  "name": "kata-template",
+  "private": true,
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "vitest --ui",
+    "test:run": "vitest run"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.13",
+    "@vitest/ui": "^0.0.136",
+    "vite": "^2.7.10",
+    "vitest": "^0.0.136"
+  }
+}
